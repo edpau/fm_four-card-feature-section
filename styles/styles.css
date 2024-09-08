@@ -102,14 +102,12 @@ body {
 
 
 .card__banner {
-  content: "";
   position: absolute;
-  height: 3px;
+  height: 4px;
   width: 100%;
   border-radius: 8px;
   top: 0;
   left: 0;
-  background: red;
 }
 
 .card__banner--supervisor {
@@ -140,7 +138,7 @@ body {
 
 @media (min-width: 43.75rem) {
   body {
-    padding: 4.875rem 0;
+    padding: 5rem 0;
   }
 
   .header {
